@@ -123,7 +123,7 @@ function applyFunction(func) {
       result = value * (Math.PI / 180);
       break;
     default:
-      return;
+      return;.
   }
 
   currentInput = result.toString();
