@@ -1,0 +1,94 @@
+/* SCROLL & RESPONSIVO */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .scroll-wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .calculator {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  /* Display */
+  .display {
+    font-size: 3rem;
+    padding: 20px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    word-wrap: break-word;
+    overflow-x: auto;
+  }
+  
+  /* Teclado principal */
+  .buttons,
+  .scientific-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #333;
+    color: white;
+  }
+  
+  button.zero {
+    grid-column: span 2;
+    border-radius: 50px;
+    width: auto;
+  }
+  
+  /* Cores dos botões */
+  .light-gray {
+    background-color: #a5a5a5;
+    color: black;
+  }
+  
+  .dark-gray {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .operator {
+    background-color: #ff9500;
+    color: white;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 480px) {
+    .display {
+      font-size: 2.2rem;
+      padding: 15px;
+    }
+  
+    button {
+      height: 55px;
+      font-size: 1.2rem;
+    }
+  
+    button.zero {
+      border-radius: 25px;
+    }
+  }

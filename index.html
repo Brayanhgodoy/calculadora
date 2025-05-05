@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora iOS Científica</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="scroll-wrapper">
+    <div class="calculator">
+      <div id="display" class="display">0</div>
+
+      <div class="buttons">
+        <button class="light-gray" onclick="clearDisplay()">AC</button>
+        <button class="light-gray" onclick="toggleSign()">+/-</button>
+        <button class="light-gray" onclick="addOperator('%')">%</button>
+        <button class="operator" onclick="addOperator('/')">÷</button>
+
+        <button class="dark-gray" onclick="appendNumber('7')">7</button>
+        <button class="dark-gray" onclick="appendNumber('8')">8</button>
+        <button class="dark-gray" onclick="appendNumber('9')">9</button>
+        <button class="operator" onclick="addOperator('*')">×</button>
+
+        <button class="dark-gray" onclick="appendNumber('4')">4</button>
+        <button class="dark-gray" onclick="appendNumber('5')">5</button>
+        <button class="dark-gray" onclick="appendNumber('6')">6</button>
+        <button class="operator" onclick="addOperator('-')">−</button>
+
+        <button class="dark-gray" onclick="appendNumber('1')">1</button>
+        <button class="dark-gray" onclick="appendNumber('2')">2</button>
+        <button class="dark-gray" onclick="appendNumber('3')">3</button>
+        <button class="operator" onclick="addOperator('+')">+</button>
+
+        <button class="dark-gray zero" onclick="appendNumber('0')">0</button>
+        <button class="dark-gray" onclick="appendDot()">,</button>
+        <button class="operator" onclick="calculate()">=</button>
+      </div>
+
+      <div class="scientific-buttons">
+        <button class="dark-gray" onclick="applyFunction('sin')">sin</button>
+        <button class="dark-gray" onclick="applyFunction('cos')">cos</button>
+        <button class="dark-gray" onclick="applyFunction('tan')">tan</button>
+        <button class="dark-gray" onclick="applyFunction('sqrt')">√</button>
+
+        <button class="dark-gray" onclick="applyFunction('log')">log</button>
+        <button class="dark-gray" onclick="applyFunction('ln')">ln</button>
+        <button class="dark-gray" onclick="applyFunction('pow')">x²</button>
+        <button class="dark-gray" onclick="applyFunction('exp')">eˣ</button>
+
+        <button class="dark-gray" onclick="insertConstant('π')">π</button>
+        <button class="dark-gray" onclick="insertConstant('e')">e</button>
+        <button class="dark-gray" onclick="applyFunction('abs')">|x|</button>
+        <button class="dark-gray" onclick="applyFunction('factorial')">x!</button>
+
+        <button class="dark-gray" onclick="backspace()">⌫</button>
+        <button class="dark-gray" onclick="applyFunction('inv')">1/x</button>
+        <button class="dark-gray" onclick="applyFunction('neg')">−x</button>
+        <button class="dark-gray" onclick="applyFunction('rad')">rad</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
