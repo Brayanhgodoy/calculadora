@@ -1,0 +1,14 @@
+Calculadora IOS
+
+Diferença
+
+A calculadora segue o mesmo design e funcionalidades das calculadoras convencionais. As principais mudanças 
+foram feitas com base em reclamações que já havia ouvido anteriormente. Foi percebido que pessoas mais velhas 
+têm dificuldades em usar aparelhos celulares e que muitas nem sabiam da existência da calculadora científica, pois ela só aparecia 
+ao destravar a rotação do celular — e nem todos sabem como fazer isso. Pensando nisso, agora no celular, basta deslizar o dedo para 
+acessar as outras funções. Caso esteja no computador, é possível acessar esses recursos apenas rolando a tela ou usando o botão, o 
+que também resolve o problema. Outro ponto muito citado foi o tamanho das letras, que, ao virar o celular, ficavam pequenas e dificultavam 
+a leitura, especialmente para pessoas com dificuldades visuais. Meu sogro, por exemplo, só enxerga com um olho e sempre teve grandes problemas 
+ao usar a calculadora científica. Já meu avô tinha dificuldade para enxergar as funções. Por fim, uma mudança simples, mas que incomodava bastante 
+gente, era o zero descentralizado, o que gerava incômodo especialmente em pessoas com TOC.Com essas mudanças simples, já conseguimos melhorar bastante 
+a usabilidade do app para os usuários.
